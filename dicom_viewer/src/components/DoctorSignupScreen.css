@@ -1,0 +1,72 @@
+/* DoctorSignUp.css */
+.signup-screen {
+  background-color: green;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctor__signupScreen {
+  background-color: #90ee90;
+  padding: 50px;
+  width: 91%;
+  height: 85%;
+}
+
+.doctor__signupScreen > h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.doctor__signupScreen > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctor__signupScreen > form > input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}

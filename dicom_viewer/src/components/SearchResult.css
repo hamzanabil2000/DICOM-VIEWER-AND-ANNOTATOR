@@ -1,0 +1,97 @@
+.searchresult-screen {
+  background-color: green;
+  height: 160vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchresults {
+  background-color: #90ee90;
+  padding: 50px;
+  width: 91%;
+  height: 87%;
+  overflow: hidden;
+}
+
+.searchresults > h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.search-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  flex-direction: column;
+  display: flex;
+}
+
+/* Styles for the search input */
+.search-field input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px; /* Rounded left corners */
+  outline: none; /* Removes the default focus outline */
+  width: 200px; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+/* Styles for the search button */
+.search-field button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: green; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0; /* Rounded right corners */
+  cursor: pointer; /* Changes cursor to indicate button */
+  outline: none; /* Removes the default focus outline */
+}
+
+/* Hover and focus styles for the button */
+.search-field button:hover,
+.search-field button:focus {
+  background-color: #0056b3; /* Darker shade for hover and focus */
+}
+
+.thumbnail-row1 {
+  display: flex;
+  width: 50%; /* Adjust the width as needed */
+  white-space: nowrap; /* Prevents content from wrapping */
+  padding: 10px; /* Adjust as needed */
+  margin-top: auto;
+  overflow-x: auto;
+}
+
+.thumbnail-container {
+  margin-right: 10px; /* Adjust as needed for spacing between thumbnails */
+  margin-bottom: 15px;
+  max-height: 300px;
+}
+
+.selected-image {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.selected-image > img {
+  width: 450px;
+  height: 450px; /* Ensure the selected image fits within its container */
+}
+
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}

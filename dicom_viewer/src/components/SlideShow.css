@@ -1,0 +1,15 @@
+.slideshow-screen {
+  background-color: green;
+  height: 170vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideshow {
+  background-color: #90ee90;
+  padding: 50px;
+  width: 91%;
+  height: 88%;
+  overflow: hidden;
+}

@@ -1,0 +1,101 @@
+.signup-screen {
+  background-color: green;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.patient__signupScreen {
+  background-color: #90ee90;
+  padding: 50px;
+  width: 91%;
+  height: 85%;
+}
+
+.patient__signupScreen > h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.patient__signupScreen > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.patient__signupScreen > form > input.datepicker {
+  /* Add your date picker styles here */
+  /* Example: Customize the appearance of the date picker */
+  width: 310px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.radiobuttons__container {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 305px; /* Set the desired width of the radio buttons container */
+  margin: 0 auto; /* Center the container on the page */
+}
+
+.radiobuttons__container label {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 320px;
+}
+
+/* Styling for the selected option display */
+p {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}

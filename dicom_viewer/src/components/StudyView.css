@@ -1,0 +1,53 @@
+.studyview-screen {
+  background-color: green;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.patient__studyviewScreen {
+  background-color: #90ee90;
+  padding: 50px;
+  width: 91%;
+  height: 89%;
+  display: grid;
+  place-items: center;
+  margin-top: 0;
+  padding-top: 0;
+  overflow-y: scroll;
+}
+
+.patient__studyviewScreen > h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.study-info > p {
+  color: black;
+  font-size: 20px;
+}
+
+.study-icons {
+  display: flex;
+  align-items: center;
+}
+
+.study-icons > button {
+  width: 70px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #90ee90;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: -10px;
+  cursor: pointer;
+  border: none;
+  align-items: center;
+  margin-left: 10px;
+}

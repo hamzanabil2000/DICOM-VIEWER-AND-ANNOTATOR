@@ -1,0 +1,272 @@
+.viewslices-screen {
+  background-color: green;
+  height: 170vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.patient__viewSlicesScreen {
+  background-color: #90ee90;
+  padding: 50px;
+  width: 91%;
+  height: 88%;
+  overflow: hidden;
+}
+
+.patient__sliceData > p {
+  color: black;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.patient__viewSlicesScreen > h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
+.thumbnails img {
+  width: 100px; /* Adjust the width of the thumbnails as needed */
+  height: auto; /* Adjust the height of the thumbnails as needed */
+  margin: 0 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.thumbnails img.active {
+  border-color: #007bff;
+}
+
+.selected-image {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.selected-image > img {
+  width: 450px;
+  height: 450px; /* Ensure the selected image fits within its container */
+}
+
+.image__index {
+  overflow: hidden;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+}
+
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.slider-container {
+  margin-top: 20px; /* Adjust the margin as needed */
+  width: 50%; /* Set a specific width for the slider container */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-bar {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: auto;
+  background-color: green;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.menubar {
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-bar button {
+  color: black;
+  margin-right: 68px;
+  padding-bottom: 5px;
+}
+
+.label {
+  font-size: 20px;
+  color: black;
+  margin-top: -2px;
+}
+
+.menulabel {
+  font-size: 20px;
+  color: black;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.menubar {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin: auto;
+
+  margin-left: -20px;
+}
+
+.underline {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin: auto;
+  font-weight: bold;
+}
+
+.audiodesc {
+  resize: none;
+}
+
+.inputtext {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  height: 50px;
+  width: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+  display: flex;
+  margin: auto;
+}
+
+.menu {
+  font-size: 19px;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.menu-bar button:hover {
+  background-color: #90ee90;
+}
+
+.thumbnail-row {
+  display: flex;
+  overflow-x: scroll; /* Enable horizontal scrolling if thumbnails exceed the width of the page */
+  padding: 10px; /* Adjust as needed */
+  margin-top: auto;
+  white-space: nowrap;
+}
+
+.thumbnail-container {
+  margin-right: 10px; /* Adjust as needed for spacing between thumbnails */
+  margin-bottom: 15px;
+  overflow-y: visible;
+  max-height: 300px;
+}
+
+.text-popup {
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.search-popup {
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.text-popup h2 {
+  font-size: 20px;
+  color: black;
+  margin-top: -10px;
+}
+
+.search-popup h2 {
+  font-size: 20px;
+  color: black;
+  margin-top: -10px;
+}
+
+.text-popup input {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.search-popup input {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 20px;
+}
+
+.text-popup button {
+  background-color: #4caf50;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.search-popup button {
+  background-color: #4caf50;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.text-popup button:hover {
+  background-color: #45a049;
+}
+
+.search-popup button:hover {
+  background-color: #45a049;
+}
+
+.image-index-label {
+  position: relative;
+  border-radius: 5px;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  top: 479px;
+  margin-bottom: -5px;
+}

@@ -1,0 +1,16 @@
+.listofstudies-screen {
+  background-color: green;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listofstudies {
+  background-color: #90ee90;
+  padding: 40px;
+  width: 92%;
+  height: 85%;
+  display: grid;
+  place-items: center;
+}

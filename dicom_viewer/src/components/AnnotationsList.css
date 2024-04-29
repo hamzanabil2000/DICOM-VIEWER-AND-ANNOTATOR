@@ -1,0 +1,30 @@
+.annotationslist-screen {
+  background-color: green;
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.annotationslist {
+  background-color: #90ee90;
+  padding: 50px;
+  width: 91%;
+  height: 91%;
+  display: grid;
+  place-items: center;
+  margin-top: 0;
+  padding-top: 0;
+  overflow-y: scroll;
+}
+
+/* AnnotationsList.css */
+.Annotationsbox {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px; /* Add margin to the bottom of each box */
+  cursor: pointer;
+
+  width: 30%;
+  font-size: 20px;
+}

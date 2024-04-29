@@ -1,0 +1,89 @@
+.dashboard-screen {
+  background-color: green;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.patient__dashboardScreen {
+  background-color: #90ee90;
+  padding: 50px;
+  width: 91%;
+  height: 80%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.patient__dashboardScreen > img {
+  width: 170px;
+  height: 110px;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
+
+.patient__dashboardScreen > h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: "bold";
+  margin-bottom: 40px;
+  text-align: "center";
+  margin-top: 0px;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer; /* Add pointer cursor on hover */
+  border: none;
+}
+
+.button1 {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer; /* Add pointer cursor on hover */
+  border: none;
+}
+
+.button2 {
+  border-radius: 20px;
+  background-color: #90ee90;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  background-color: #333; /* Darken the background color on hover */
+}
+
+.link {
+  text-decoration: none;
+}

@@ -1,0 +1,124 @@
+.alldoctors-screen {
+  background-color: green;
+  height: 138vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alldoctors {
+  background-color: #90ee90;
+  padding: 50px;
+  width: 91%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.alldoctors h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  top: 0;
+}
+
+.doctorslist {
+  text-align: center;
+  margin: -18px; /* Set margin to zero to remove spaces between border boxes */
+}
+
+.doctor-box p {
+  font-size: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor-box {
+  border: 1px solid #ddd;
+  background-color: white;
+  margin-top: 40px;
+  display: flex;
+}
+
+.doctor-box1 {
+  background-color: white;
+  display: flex;
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+.doctor-box2 {
+  background-color: white;
+  display: flex;
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+.doctor-box1 p {
+  margin-left: 60px;
+}
+
+.doctor-box2 p {
+  margin-left: 60px;
+}
+
+.checkbox {
+  display: flex;
+  transform: scale(1.5); /* You can adjust the scale factor as needed */
+  margin-right: 20px;
+  margin-top: 7px;
+  margin-left: 15px;
+}
+
+.sharebutton {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  margin-top: 50px;
+  margin-left: 470px;
+}
+
+.floating-button {
+  background-color: green;
+  margin-top: 50px;
+  bottom: 30px;
+  right: 1000px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  width: 100px;
+  margin-left: 500px;
+}
+
+.search-input {
+  width: 20%; /* Full-width */
+  padding: 12px 20px; /* Some padding */
+  margin: 8px 0; /* Some margin to separate from other elements */
+  display: inline-block; /* Ensuring it doesn't break the flow */
+  border: 2px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Making sure padding doesn't affect the width */
+  margin-left: 470px;
+}
+
+/* Styling for focus state to improve user experience */
+.search-input:focus {
+  border-color: #4caf50; /* Green border for focus state */
+  outline: none; /* Removing default focus outline */
+}

@@ -1,0 +1,121 @@
+.allpatients-screen {
+  background-color: green;
+  height: 134vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allpatients {
+  background-color: #90ee90;
+  padding: 50px;
+  width: 91%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.allpatients h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  top: 0;
+}
+
+.patientlist {
+  text-align: center;
+  margin: -18px; /* Set margin to zero to remove spaces between border boxes */
+}
+
+.patientlist p {
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.patient-box {
+  border: 1px solid #ddd;
+  background-color: rgb(189, 189, 188);
+  margin-top: 40px;
+  display: flex;
+}
+
+.checkbox {
+  display: flex;
+  transform: scale(1.5); /* You can adjust the scale factor as needed */
+  margin-right: 20px;
+  margin-top: 7px;
+  margin-left: 15px;
+}
+
+.search-input {
+  width: 20%; /* Full-width */
+  padding: 12px 20px; /* Some padding */
+  margin: 8px 0; /* Some margin to separate from other elements */
+  display: inline-block; /* Ensuring it doesn't break the flow */
+  border: 2px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Making sure padding doesn't affect the width */
+  margin-left: 470px;
+}
+
+/* Styling for focus state to improve user experience */
+.search-input:focus {
+  border-color: #4caf50; /* Green border for focus state */
+  outline: none; /* Removing default focus outline */
+}
+
+.gender-filter {
+  padding: 8px 12px; /* Adds padding inside the dropdown */
+  margin: 10px 0; /* Adds margin around the dropdown */
+  border: 1px solid #ccc; /* Sets the border color and width */
+  border-radius: 4px; /* Rounds the corners of the dropdown */
+  background-color: white; /* Sets the background color */
+  font-size: 16px; /* Sets the font size */
+  color: #333; /* Sets the text color */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  margin-left: 470px;
+  width: 20%;
+}
+
+.gender-filter:focus {
+  outline: none; /* Removes the default focus outline */
+  border-color: #4caf50; /* Adds a shadow to highlight focus */
+}
+
+/* You can also style the dropdown options */
+.gender-filter option {
+  padding: 5px; /* Adds padding to the options */
+  background: white; /* Sets a background for the options */
+  color: #333; /* Sets the text color for options */
+}
+
+.patients-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.patients-table thead {
+  background-color: black;
+  color: #ffffff;
+}
+
+.patients-table th,
+.patients-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.patients-table td {
+  background-color: rgb(207, 202, 202);
+}
+
+.patients-table th {
+  position: sticky;
+  top: 0;
+}

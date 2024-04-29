@@ -1,0 +1,76 @@
+.dashboard-screen {
+  background-color: green;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctor__dashboardScreen {
+  background-color: #90ee90;
+  padding: 50px;
+  display: grid;
+  place-items: center;
+  width: 91%;
+  height: 81%;
+}
+
+.doctor__dashboardScreen > img {
+  width: 170px;
+  height: 110px;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
+
+.doctor__dashboardScreen > h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: "bold";
+  margin-bottom: 40px;
+  text-align: "center";
+  margin-top: -40px;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 20px;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer; /* Add pointer cursor on hover */
+  border: none;
+}
+
+.notification {
+  position: fixed; /* Fixed position relative to the viewport */
+  top: 0; /* Align to the top of the viewport */
+  left: 0; /* Align to the left of the viewport */
+  z-index: 1000;
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 100px; /* Increase width */
+  height: 100px; /* Increase height */
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #333; /* Darken the background color on hover */
+}
+
+.link {
+  text-decoration: none;
+  /* margin-bottom: 100px; */
+}
